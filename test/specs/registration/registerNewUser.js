@@ -22,4 +22,25 @@ describe('New User Register', () => {
         const expectedHeader = 'User Register';
         expect(h1Text).to.eq(expectedHeader);
      });
+     
+     it('should show "Real name" field', () => {
+         const nameFormSelector = '//input[@name="name"]';
+         const nameForm = $('//input[@name="name"]').isDisplayed();
+         expect(nameForm).to.be.true;
+      });
+
+      it('should show "Cell phone" field', () => {
+         const phoneFormSelector = '//input[@name="phone"]';
+         const phoneForm = $('//input[@name="phone"]').isDisplayed();
+         expect(phoneForm).to.be.true;
+      });
+
+      it('should show "Email" field', () => {
+         const emailFormSelector = '//input[@name="email"]';
+         const emailForm = $('//input[@name="email"]').isDisplayed();
+         expect(emailForm).to.be.true;
+      });
+
+
+
 });
