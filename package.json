@@ -6,7 +6,8 @@
   "scripts": {
     "test": "wdio wdio.conf.js --inspect",
     "test:login": "wdio wdio.conf.js --spec ./test/specs/registration/registerNewUser.js --inspect",
-    "test:design": "wdio wdio.conf.js --spec ./test/specs/password-design.js --inspect"
+    "test:design": "wdio wdio.conf.js --spec ./test/specs/password-design.js --inspect",
+    "test:button": "wdio wdio.conf.js --spec ./test/specs/registration/submitButtonDesign.js --inspect"
   },
   "keywords": [],
   "author": "",
