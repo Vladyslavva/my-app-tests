@@ -7,7 +7,9 @@
     "test": "wdio wdio.conf.js --inspect",
     "test:login": "wdio wdio.conf.js --spec ./test/specs/registration/registerNewUser.js --inspect",
     "test:design": "wdio wdio.conf.js --spec ./test/specs/password-design.js --inspect",
-    "test:button": "wdio wdio.conf.js --spec ./test/specs/registration/submitButtonDesign.js --inspect"
+    "test:button": "wdio wdio.conf.js --spec ./test/specs/registration/submitButtonDesign.js --inspect",
+    "test:general": "wdio wdio.conf.js --spec ./test/specs/registration/general.js --inspect",
+    "test:user:forgotPassword": "wdio wdio.conf.js --spec ./test/specs/user/forgotPasswordLink-func.js --inspect"
   },
   "keywords": [],
   "author": "",
